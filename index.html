@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recepção</title>
+</head>
+<body>
+    <form action="submit" method="get" class="form">
+        <fieldset>
+            <legend>Dados cliente: </legend>
+            Nome: <input type="text" name="name" id="name"> <br>
+            Telefone: <input type="text" name="phone" id="phone">
+        </fieldset>
+        <fieldset>
+            <legend>Motivo: </legend>
+            <input type="checkbox" name="reason" id="reason" value="atendimento"> 1º Atendimento
+            <input type="checkbox" name="reason" id="reason" value="quitacao"> Quitação
+            <input type="checkbox" name="reason" id="reason" value="retorno"> Retorno
+        </fieldset>
+        <fieldset>
+            <legend>Tempo: </legend>
+            Chegada: <input type="time" name="time_entrance" id="time_entrance"> <br>
+            Término: <input type="time" name="time_exit" id="time_exit"> <br>
+        </fieldset>
+        <br>
+        <input type="button" value="Enviar">
+    </form>
+</body>
+</html>
